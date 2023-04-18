@@ -24,7 +24,7 @@ _get_zlink () {
 
         else
 
-            echo "${UPSTREAM_REPO}/archive/master.zip"
+            echo "${UPSTREAM_REPO}/archive/main.zip"
 
         fi
 
@@ -80,7 +80,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO = "https://github.com/som3ael7amaky/test"
 
-ACTIVE_BRANCH_NAME = "master"
+ACTIVE_BRANCH_NAME = "main"
 
 repo = Repo.init()
 
@@ -104,7 +104,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
 
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "main"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "master"
 
 repo = Repo.init()
 
