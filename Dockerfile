@@ -1,4 +1,4 @@
-FROM som3ael7amaky/test1:alpine
+FROM Zed-Thon/ZelZal:alpine
 
 #clonning repo 
 RUN git clone https://github.com/som3ael7amaky/test1/tree/master.git /root/zthon
